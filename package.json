@@ -1,0 +1,28 @@
+{
+  "name": "WebDriver",
+  "version": "1.0.0",
+  "description": "Automated Testing",
+  "scripts": {
+    "prestart-webdriver": "webdriver-manager update",
+    "start-webdriver": "webdriver-manager start",
+    "protractor": "protractor ./config/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuriyBerdnik/Design-Patterns-for-Pages-with-Selenium-WebDriver.git"
+  },
+  "author": "Yury Berdnik <yury_berdnik@epam.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "gulp": "^4.0.2",
+    "gulp-angular-protractor": "^2.0.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-protractor": "^4.1.1",
+    "jasmine-core": "^3.5.0",
+    "log4js": "^6.1.2",
+    "protractor": "^5.4.3",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  }
+}
